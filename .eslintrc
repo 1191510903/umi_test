@@ -1,0 +1,20 @@
+{
+  "extends": "eslint-config-umi",
+  "globals": {
+    "ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION": true,
+    "page": true,
+    "REACT_APP_ENV": true
+  },
+  "rules": {
+    "react/jsx-no-bind": [
+      true,
+      {
+        "ignoreDOMComponents": true,
+        "ignoreRefs": true,
+        "allowArrowFunctions": true,
+        "allowFunctions": true,
+        "allowBind": true
+      }
+    ]
+  }
+}

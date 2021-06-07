@@ -1,0 +1,17 @@
+<!-- umi 脚本生成的架构没有该模板，umi 约定如果存在 src/document.ejs 文件，则将其作为html模板。
+    设置icon 时，umi.js存在bug所以使用模板设置
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Octopus测试系统</title> 
+  <link rel="icon" type="image/x-icon" href="<%= context.publicPath %>static/icon.jpg" />
+  <script src="<%= context.publicPath %>static/config.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
